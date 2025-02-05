@@ -10,7 +10,7 @@ int main() {
         );
     }
     else{
-        pirntf("False");
+        printf("False");
     }
     return 0;
 }
