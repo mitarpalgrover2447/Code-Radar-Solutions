@@ -12,7 +12,7 @@ int main(){
         printf("%d",c);
     }
     else{
-        printf("All are equal");
+        printf("%d",b);
     }
     return 0;
 }
