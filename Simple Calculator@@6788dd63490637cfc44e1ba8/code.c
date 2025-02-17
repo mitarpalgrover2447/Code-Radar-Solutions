@@ -8,13 +8,13 @@ int main(){
             printf("%.0f",a+b);
             break;
         case '-':
-            printf("%d",a-b);
+            printf("%.0f",a-b);
             break;
         case '*':
-            printf("%d",a*b);
+            printf("%.0f",a*b);
             break;
         case '/':
-            printf("%d",a/b);
+            printf("%.0f",a/b);
             break;
         default:
             printf("error");
