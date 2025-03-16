@@ -11,7 +11,12 @@ int main(){
             printf("%d",c);
             c++;
         }
+        int d = c;
+        for(int k =1; k<=(i-1); k++){
+            printf("%d",d-1);
+        }
         printf("\n");
+
     }
     return 0;
 }
