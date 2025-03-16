@@ -11,7 +11,7 @@ int main(){
             printf("%d",c);
             c++;
         }
-        int d = c;
+        int d = c-2;
         for(int k =1; k<=(i-1); k++){
             printf("%d",d);
             d--;
