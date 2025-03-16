@@ -16,7 +16,14 @@ int main(){
         for(int s = 1;s<=i;s++){
             printf(" ");
         }
-        for(int j = 1; j<=m; j++){
+        if(n%2 == 0){
+
+        for(int j = 1; j<=m+1; j++){
+            printf("*");
+        }
+        }
+        else{
+            for(int j = 1; j<=m; j++){
             printf("*");
         }
         m=m-2;
