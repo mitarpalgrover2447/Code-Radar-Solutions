@@ -26,6 +26,7 @@ int main(){
             for(int j = 1; j<=m; j++){
             printf("*");
         }
+        }
         m=m-2;
         printf("\n");
     }
