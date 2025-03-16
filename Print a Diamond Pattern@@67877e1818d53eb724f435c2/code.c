@@ -2,6 +2,7 @@
 int main(){
     int n;
     scanf("%d",&n);
+    int m = n;
     for(int i = 1; i<=n; i++){
         for(int s = 1; s<=(n-i); s++){
             printf(" ");
@@ -15,9 +16,10 @@ int main(){
         for(int s = 1;s<=i;s++){
             printf(" ");
         }
-        for(int j = 1; j<=n; j=j-2){
+        for(int j = 1; j<=m; j++){
             printf("*");
         }
+        m=m-2;
         printf("\n");
     }
     return 0;
