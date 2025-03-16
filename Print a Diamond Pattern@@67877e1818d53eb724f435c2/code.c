@@ -11,7 +11,7 @@ int main(){
         }
         printf("\n");
     }
-    int m = (2*(n-1)+1)-2
+    int m = (2*(n-1)+1)-2;
     for(int i = 1; i<=n-1; i++)
     {
         for(int s = 1;s<=i;s++){
