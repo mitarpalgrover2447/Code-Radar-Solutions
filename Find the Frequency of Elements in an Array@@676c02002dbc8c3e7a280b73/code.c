@@ -11,7 +11,7 @@ int main(){
         vis[i]=0;
     }
     for(int i = 0; i<n; i++ ){
-        if(vis==1) continue;
+        if(vis[i]==1) continue;
         int count = 0;
         for(int j = 0; j<n; j++){
             if(arr[i] == arr[j]){
